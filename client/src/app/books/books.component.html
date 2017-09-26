@@ -1,0 +1,33 @@
+<div class="layout">
+
+  <div *ngIf="books" class="books">
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Book Name</th>
+          <th>Author Name</th>
+          <th>ISBN</th>
+          <th>Publish Date</th>
+          <th>Category</th>
+          <th>Amount of books</th>
+          <th>Books Issued</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr class="table-secondary" *ngFor="let book of books">
+          <th scope="row">{{book.name}}</th>
+          <td>{{book.author}}</td>
+          <td>{{book.isbnCode}}</td>
+          <td>{{book.publishDate}}</td>
+          <td>{{book.category}}</td>
+          <td>{{book.amount}}</td>
+          <td>{{book.bookIssued}}</td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+</div>
