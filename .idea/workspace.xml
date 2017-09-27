@@ -1,7 +1,407 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01ed5edb-37ff-45dc-9adc-5ab6d32849c2" name="Default" comment="" />
+    <list default="true" id="01ed5edb-37ff-45dc-9adc-5ab6d32849c2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/.hound.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/CNAME" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/Gemfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/Gemfile.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/ISSUE_TEMPLATE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/_config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/dist/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/dist/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/dist/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/dist/css/bootstrap-theme.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/dist/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/dist/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/dist/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/dist/css/bootstrap.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/dist/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/dist/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/dist/js/jquery-3.2.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/dist/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_data/browser-bugs.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_data/browser-features.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_data/core-team.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_data/glyphicons.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_data/sass-team.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_data/showcase.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_data/translations.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/ads.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/components/alerts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/components/badges.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/components/breadcrumbs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/components/button-dropdowns.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/components/button-groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/components/dropdowns.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/components/glyphicons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/components/input-groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/components/jumbotron.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/components/labels.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/components/list-group.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/components/media.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/components/navbar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/components/navs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/components/page-header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/components/pagination.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/components/panels.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/components/progress-bars.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/components/responsive-embed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/components/thumbnails.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/components/wells.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/css/buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/css/code.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/css/forms.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/css/grid.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/css/helpers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/css/images.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/css/less.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/css/overview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/css/responsive-utilities.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/css/sass.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/css/tables.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/css/type.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/customizer-variables.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/getting-started/accessibility.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/getting-started/browser-device-support.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/getting-started/community.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/getting-started/disabling-responsiveness.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/getting-started/download.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/getting-started/examples.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/getting-started/grunt.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/getting-started/license.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/getting-started/template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/getting-started/third-party-support.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/getting-started/tools.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/getting-started/translations.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/getting-started/whats-included.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/js/affix.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/js/alerts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/js/buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/js/carousel.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/js/collapse.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/js/dropdowns.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/js/modal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/js/overview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/js/popovers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/js/scrollspy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/js/tabs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/js/tooltips.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/js/transitions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/nav/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/nav/components.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/nav/css.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/nav/customize.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/nav/getting-started.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/nav/javascript.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/nav/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_includes/nav/migration.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_layouts/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_layouts/home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_plugins/bridge.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_plugins/bugify.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_pug/customizer-nav.pug" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/_pug/customizer-variables.pug" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/brand/bootstrap-outline.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/brand/bootstrap-punchout.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/brand/bootstrap-solid.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/css/docs.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/css/docs.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/css/ie10-viewport-bug-workaround.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/css/src/docs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/css/src/pygments-manni.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/flash/ZeroClipboard.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/img/components.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/img/devices.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/img/expo-lyft.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/img/expo-newsweek.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/img/expo-riot.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/img/expo-vogue.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/img/sass-less.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/js/customize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/js/docs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/js/ie-emulation-modes-warning.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/js/ie10-viewport-bug-workaround.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/js/ie8-responsive-file-warning.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/js/raw-files.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/js/src/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/js/src/customizer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/js/vendor/Blob.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/js/vendor/FileSaver.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/js/vendor/ZeroClipboard.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/js/vendor/anchor.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/js/vendor/autoprefixer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/js/vendor/holder.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/js/vendor/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/js/vendor/jszip.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/js/vendor/less.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/assets/js/vendor/uglify.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/browser-bugs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/components.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/css.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/customize.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/dist/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/dist/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/dist/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/dist/css/bootstrap-theme.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/dist/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/dist/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/dist/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/dist/css/bootstrap.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/dist/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/dist/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/dist/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/blog/blog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/blog/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/carousel/carousel.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/carousel/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/cover/cover.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/cover/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/dashboard/dashboard.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/dashboard/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/grid/grid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/grid/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/jumbotron-narrow/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/jumbotron-narrow/jumbotron-narrow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/jumbotron/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/jumbotron/jumbotron.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/justified-nav/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/justified-nav/justified-nav.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/navbar-fixed-top/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/navbar-fixed-top/navbar-fixed-top.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/navbar-static-top/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/navbar-static-top/navbar-static-top.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/navbar/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/navbar/navbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/non-responsive/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/non-responsive/non-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/offcanvas/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/offcanvas/offcanvas.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/offcanvas/offcanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/screenshots/blog.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/screenshots/carousel.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/screenshots/cover.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/screenshots/dashboard.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/screenshots/equal-height-columns.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/screenshots/grid.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/screenshots/jumbotron-narrow.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/screenshots/jumbotron.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/screenshots/justified-nav.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/screenshots/navbar-fixed.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/screenshots/navbar-static.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/screenshots/navbar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/screenshots/non-responsive.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/screenshots/offcanvas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/screenshots/sign-in.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/screenshots/starter-template.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/screenshots/sticky-footer-navbar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/screenshots/sticky-footer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/screenshots/theme.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/signin/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/signin/signin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/starter-template/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/starter-template/starter-template.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/sticky-footer-navbar/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/sticky-footer-navbar/sticky-footer-navbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/sticky-footer/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/sticky-footer/sticky-footer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/theme/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/theme/theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/tooltip-viewport/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/tooltip-viewport/tooltip-viewport.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/examples/tooltip-viewport/tooltip-viewport.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/getting-started.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/javascript.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/migration.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/docs/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/grunt/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/grunt/bs-commonjs-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/grunt/bs-glyphicons-data-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/grunt/bs-lessdoc-parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/grunt/bs-raw-files-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/grunt/change-version.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/grunt/configBridge.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/grunt/npm-shrinkwrap.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/grunt/sauce_browsers.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/.jscsrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/affix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/alert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/popover.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/tests/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/tests/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/tests/unit/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/tests/unit/affix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/tests/unit/alert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/tests/unit/button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/tests/unit/carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/tests/unit/collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/tests/unit/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/tests/unit/modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/tests/unit/phantom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/tests/unit/popover.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/tests/unit/scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/tests/unit/tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/tests/unit/tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/tests/vendor/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/tests/vendor/qunit.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/tests/vendor/qunit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/tests/visual/affix-with-sticky-footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/tests/visual/affix.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/tests/visual/alert.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/tests/visual/button.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/tests/visual/carousel.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/tests/visual/collapse.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/tests/visual/dropdown.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/tests/visual/modal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/tests/visual/popover.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/tests/visual/scrollspy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/tests/visual/tab.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/tests/visual/tooltip.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/js/transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/.csscomb.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/.csslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/badges.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/button-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/close.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/code.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/component-animations.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/dropdowns.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/glyphicons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/input-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/jumbotron.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/media.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/mixins/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/mixins/background-variant.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/mixins/border-radius.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/mixins/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/mixins/center-block.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/mixins/clearfix.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/mixins/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/mixins/gradients.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/mixins/grid-framework.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/mixins/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/mixins/hide-text.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/mixins/image.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/mixins/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/mixins/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/mixins/nav-divider.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/mixins/nav-vertical-align.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/mixins/opacity.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/mixins/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/mixins/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/mixins/progress-bar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/mixins/reset-filter.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/mixins/reset-text.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/mixins/resize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/mixins/responsive-visibility.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/mixins/size.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/mixins/tab-focus.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/mixins/table-row.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/mixins/text-emphasis.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/mixins/text-overflow.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/mixins/vendor-prefixes.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/modals.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/navs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/normalize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/pager.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/popovers.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/print.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/responsive-embed.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/responsive-utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/scaffolding.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/tables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/theme.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/thumbnails.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/tooltip.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/type.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/less/wells.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/nuget/MyGet.ps1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/nuget/bootstrap.less.nuspec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/nuget/bootstrap.nuspec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/package.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/bootstrap-3.3.7/package.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/fileContent/annotation-processors.bin" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/fileContent/annotation-processors.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/fileContent/fileContent.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/jvmClassSignatures.bin" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/jvmClassSignatures.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/adelacebal/library/dao/BookDaoImpl.class" afterPath="$PROJECT_DIR$/build/classes/main/com/adelacebal/library/dao/BookDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/adelacebal/library/model/Book.class" afterPath="$PROJECT_DIR$/build/classes/main/com/adelacebal/library/model/Book.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/adelacebal/library/web/controller/BookController.class" afterPath="$PROJECT_DIR$/build/classes/main/com/adelacebal/library/web/controller/BookController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/library.mv.db" afterPath="$PROJECT_DIR$/data/library.mv.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/app.component.html" afterPath="$PROJECT_DIR$/client/src/app/app.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/app.module.ts" afterPath="$PROJECT_DIR$/client/src/app/app.module.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/app.routing.ts" afterPath="$PROJECT_DIR$/client/src/app/app.routing.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/books/books.component.css" afterPath="$PROJECT_DIR$/client/src/app/books/books.component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/books/books.component.html" afterPath="$PROJECT_DIR$/client/src/app/books/books.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/books/books.component.ts" afterPath="$PROJECT_DIR$/client/src/app/books/books.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/index.html" afterPath="$PROJECT_DIR$/client/src/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/adelacebal/library/dao/BookDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/adelacebal/library/dao/BookDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/adelacebal/library/model/Book.java" afterPath="$PROJECT_DIR$/src/main/java/com/adelacebal/library/model/Book.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/adelacebal/library/web/controller/BookController.java" afterPath="$PROJECT_DIR$/src/main/java/com/adelacebal/library/web/controller/BookController.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -33,22 +433,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="library" type="f1a62948:ProjectNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="library" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="library" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="library" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="application" type="c8890929:TasksNode$1" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -58,120 +442,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BookController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BookController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/adelacebal/library/web/controller/BookController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+            <state relative-caret-position="338">
+              <caret line="38" column="49" lean-forward="false" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/adelacebal/library/service/BookServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TransactionServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/adelacebal/library/service/TransactionServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/adelacebal/library/service/BookService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Book.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/adelacebal/library/model/Book.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="943">
-              <caret line="95" column="5" lean-forward="true" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1903#1904#0" expanded="true" />
-                <element signature="e#1934#1935#0" expanded="true" />
-                <element signature="e#1982#1983#0" expanded="true" />
-                <element signature="e#2022#2023#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ControllerConstants.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/adelacebal/library/web/controller/ControllerConstants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="45" lean-forward="false" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Transaction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/adelacebal/library/model/Transaction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#509#510#0" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hibernate.cfg.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/app.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="83" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="83" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TransactionController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/adelacebal/library/web/controller/TransactionController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -190,12 +468,16 @@
     <findStrings>
       <find>Book</find>
       <find>saveorup</find>
+      <find>com.fasterxml.jackson.databind.ObjectMapper</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2" />
+        <entry key="$PROJECT_DIR$" value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -389,7 +671,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4519318029000" />
+        <entry key="$PROJECT_DIR$" value="4519408425000" />
         <entry key="$PROJECT_DIR$/build.gradle" value="2667125328" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="615277776" />
       </map>
@@ -585,27 +867,26 @@
         <option value="$PROJECT_DIR$/src/main/java/com/adelacebal/library/config/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/adelacebal/library/dao/BookDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/adelacebal/library/dao/TransactionDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/adelacebal/library/dao/BookDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/adelacebal/library/dao/TransactionDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/adelacebal/library/service/TransactionService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/adelacebal/library/service/BookServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/adelacebal/library/service/TransactionServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/adelacebal/library/web/controller/ControllerConstants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/adelacebal/library/service/BookService.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/adelacebal/library/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/adelacebal/library/model/Transaction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/adelacebal/library/web/controller/BookController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/adelacebal/library/dao/BookDaoImpl.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/adelacebal/library/model/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/adelacebal/library/web/controller/BookController.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="42" />
-    <option name="y" value="128" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
-    <option name="height" value="773" />
+    <option name="height" value="800" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -883,8 +1164,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="42" y="128" width="1280" height="773" extended-state="1" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -894,14 +1174,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35235378" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46081504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35859376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36520377" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36484376" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -967,16 +1247,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/adelacebal/library/dao/BookDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/adelacebal/library/dao/TransactionDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -997,70 +1267,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/adelacebal/library/service/TransactionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/adelacebal/library/dao/BookDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/adelacebal/library/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#327#328#0" expanded="false" />
-            <element signature="e#389#390#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/app.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="83" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/adelacebal/library/model/Transaction.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/adelacebal/library/service/TransactionServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1081,6 +1293,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/adelacebal/library/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/adelacebal/library/model/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/adelacebal/library/service/TransactionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/adelacebal/library/service/BookService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1091,10 +1329,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/adelacebal/library/service/TransactionServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/adelacebal/library/service/BookServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="220">
+          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/app.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="83" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/adelacebal/library/dao/BookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/adelacebal/library/dao/BookDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/adelacebal/library/model/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="74" column="33" lean-forward="false" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1103,34 +1391,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/adelacebal/library/web/controller/BookController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        <state relative-caret-position="338">
+          <caret line="38" column="49" lean-forward="false" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/adelacebal/library/service/BookServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/adelacebal/library/model/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="95" column="5" lean-forward="true" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1903#1904#0" expanded="true" />
-            <element signature="e#1934#1935#0" expanded="true" />
-            <element signature="e#1982#1983#0" expanded="true" />
-            <element signature="e#2022#2023#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,10 +1,11 @@
 package com.adelacebal.library.model;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import javax.xml.bind.annotation.XmlRootElement;
-import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Date;
 
 @Entity
 @XmlRootElement
@@ -16,13 +17,13 @@ public class Book {
     private String author;
     private String isbnCode;
     private int amount;
-    private LocalDate publishDate;
+    private Date publishDate;
 
     private String category;
     private int booksIssued;
-
-    @OneToMany(mappedBy = "book")
-    private List<Transaction> transactions = new ArrayList<>();
+//
+//    @OneToMany(mappedBy = "book")
+//    private List<Transaction> transactions = new ArrayList<>();
 
     public Book() {
     }
@@ -67,11 +68,11 @@ public class Book {
         this.amount = amount;
     }
 
-    public LocalDate getPublishDate() {
+    public Date getPublishDate() {
         return publishDate;
     }
 
-    public void setPublishDate(LocalDate publishDate) {
+    public void setPublishDate(Date publishDate) {
         this.publishDate = publishDate;
     }
 
@@ -83,13 +84,13 @@ public class Book {
         this.booksIssued = booksIssued;
     }
 
-    public List<Transaction> getTransactions() {
-        return transactions;
-    }
-
-    public void setTransactions(List<Transaction> transactions) {
-        this.transactions = transactions;
-    }
+//    public List<Transaction> getTransactions() {
+//        return transactions;
+//    }
+//
+//    public void setTransactions(List<Transaction> transactions) {
+//        this.transactions = transactions;
+//    }
 
     public String getCategory() {
         return category;

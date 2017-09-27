@@ -1,11 +1,18 @@
-<nav class="nav navbar-fixed" style="background-color: #e3f2fd;">
-  <a class="navbar-brand col-lg-8 col-lg-offset-2" [routerLink]="['/']">Library</a>
-</nav>
+<div class="nav navbar-fixed">
+    <nav>
+        <div class="container">
+            <a [routerLink]="['/']" class="brand-logo">Library</a>
+            <a href="#" class="button-collapse right"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a [routerLink]="['/books/add']">New Book</a></li>
+                <li><a [routerLink]="['/']">Explore</a></li>
+                <li><a [routerLink]="['/categories']">Categories</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
 
-<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-xs-offset-2">
 
-  <div class="layout">
-    <router-outlet></router-outlet>
-  </div>
-
+<div class="container">
+  <router-outlet></router-outlet>
 </div>
