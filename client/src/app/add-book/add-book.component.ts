@@ -24,6 +24,7 @@ export class AddBookComponent implements OnInit {
     author: '',
     isbnCode: '',
     publishDate: '',
+    editedPublishedDate: '',
     category: '',
     amount: ''
   };
@@ -31,6 +32,7 @@ export class AddBookComponent implements OnInit {
   constructor(private booksService: BooksService, private router: Router, private route: ActivatedRoute) {
     if (this.route.queryParams != null) {
       this.route.queryParams.subscribe(params => {
+        console.log(params);
         this.formInfo = {
           id: params["bookId"],
           name: params["bookName"],

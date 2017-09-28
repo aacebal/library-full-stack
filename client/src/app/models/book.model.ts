@@ -1,3 +1,5 @@
+import { Transaction } from './transaction.model';
+
 export class Book {
   id: string;
   name: string;
@@ -6,4 +8,5 @@ export class Book {
   publishDate: Date;
   category: string;
   amount: number;
+  transactions: Transaction[];
 }

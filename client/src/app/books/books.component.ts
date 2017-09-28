@@ -4,6 +4,7 @@ import { TransactionsService } from '../services/transactions.service';
 import { Router, NavigationExtras } from "@angular/router";
 import { Book } from "../models/book.model";
 import { DatePipe } from '@angular/common';
+import * as moment from 'moment';
 
 @Component({
   selector: 'app-books',
@@ -33,7 +34,7 @@ export class BooksComponent implements OnInit {
           "bookName": book.name,
           "bookAuthor": book.author,
           "bookIsbn": book.isbnCode,
-          "bookPublishDate": book.publishDate,
+          "bookPublishDate": moment(book.publishDate).format('YYYY-MM-DD'),
           "bookCategory": book.category,
           "bookAmount": book.amount,
         }

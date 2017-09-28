@@ -1,10 +1,11 @@
 package com.adelacebal.library.model;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import javax.xml.bind.annotation.XmlRootElement;
-import java.util.ArrayList;
 import java.util.Date;
-import java.util.List;
 
 @Entity
 @XmlRootElement
@@ -21,8 +22,8 @@ public class Book {
     private String category;
     private int booksIssued;
 
-    @OneToMany(mappedBy = "book")
-    private List<Transaction> transactions = new ArrayList<>();
+//    @OneToMany(mappedBy = "book")
+//    private List<Transaction> transactions = new ArrayList<>();
 
     public Book() {
     }
@@ -83,13 +84,13 @@ public class Book {
         this.booksIssued = booksIssued;
     }
 
-    public List<Transaction> getTransactions() {
-        return transactions;
-    }
-
-    public void setTransactions(List<Transaction> transactions) {
-        this.transactions = transactions;
-    }
+//    public List<Transaction> getTransactions() {
+//        return transactions;
+//    }
+//
+//    public void setTransactions(List<Transaction> transactions) {
+//        this.transactions = transactions;
+//    }
 
     public String getCategory() {
         return category;

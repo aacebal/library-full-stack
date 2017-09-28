@@ -6,11 +6,13 @@
   <br>
   <input placeholder="ISBN Code" type="text" [(ngModel)]="formInfo.isbnCode" name="isbnCode"/>
   <br>
-  <input placeholder="Publish Date" type="date" [(ngModel)]="formInfo.publishDate" name="publishDate"/>
+  <input *ngIf="!formInfo.publishDate" placeholder="Publish Date" type="date" [(ngModel)]="formInfo.publishDate" name="publishDate"/>
+  <input *ngIf="formInfo.publishDate" placeholder="Publish Date" type="text" [(ngModel)]="formInfo.publishDate" name="publishDate"/>
   <br>
   <input placeholder="Category" type="text" [(ngModel)]="formInfo.category" name="category"/>
   <br>
   <input placeholder="Number of Books" type="number" [(ngModel)]="formInfo.amount" name="amount"/>
   <br>
-  <button class="btn btn-lg"(click)="addBook()"> Add Book </button>
+  <button *ngIf="!formInfo.id" class="btn btn-lg"(click)="addBook()"> Add Book </button>
+  <button *ngIf="formInfo.id" class="btn btn-lg"(click)="addBook()"> Edit Book </button>
 </form>
