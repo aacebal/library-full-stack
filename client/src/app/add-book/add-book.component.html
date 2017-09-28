@@ -6,8 +6,8 @@
   <br>
   <input placeholder="ISBN Code" type="text" [(ngModel)]="formInfo.isbnCode" name="isbnCode"/>
   <br>
-  <input *ngIf="!formInfo.publishDate" placeholder="Publish Date" type="date" [(ngModel)]="formInfo.publishDate" name="publishDate"/>
-  <input *ngIf="formInfo.publishDate" placeholder="Publish Date" type="text" [(ngModel)]="formInfo.publishDate" name="publishDate"/>
+  <input *ngIf="!formInfo.id" placeholder="Publish Date" type="date" [(ngModel)]="formInfo.publishDate" name="publishDate"/>
+  <input *ngIf="formInfo.id" placeholder="Publish Date" type="text" [(ngModel)]="formInfo.publishDate" name="publishDate"/>
   <br>
   <input placeholder="Category" type="text" [(ngModel)]="formInfo.category" name="category"/>
   <br>

@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 import java.util.List;
 
 @RestController
@@ -17,7 +19,6 @@ public class BookController {
 
     @RequestMapping(value = "/books", method = RequestMethod.GET, produces = "application/json")
     public List<Book> getAllBooks() {
-
         List<Book> books = bookService.findAll();
 
         return books;
@@ -26,11 +27,16 @@ public class BookController {
     @RequestMapping(value = "/books/add", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public List<Book> addBook(@RequestBody Book book) {
 
+        GregorianCalendar cal = new GregorianCalendar();
+        cal.setTime(book.getPublishDate());
+
+        cal.add(Calendar.DATE, 1);
+
         if (book != null) {
             book.setName(book.getName());
             book.setAuthor(book.getAuthor());
             book.setIsbnCode(book.getIsbnCode());
-            book.setPublishDate(book.getPublishDate());
+            book.setPublishDate(cal.getTime());
             book.setCategory(book.getCategory());
             book.setAmount(book.getAmount());
         }
@@ -39,13 +45,6 @@ public class BookController {
         List<Book> books = bookService.findAll();
 
         return books;
-    }
-
-    @RequestMapping(value = "/book/{bookId}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
-    public Book bookDetails(@PathVariable Long bookId) {
-        Book book = bookService.findById(bookId);
-
-        return book;
     }
 
     @RequestMapping(value = "book/delete/{bookId}", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
@@ -57,5 +56,12 @@ public class BookController {
 
         List<Book> books = bookService.findAll();
         return books;
+    }
+
+    @RequestMapping(value = "/book/{bookId}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    public Book bookDetails(@PathVariable Long bookId) {
+        Book book = bookService.findById(bookId);
+
+        return book;
     }
 }

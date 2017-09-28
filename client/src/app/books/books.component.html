@@ -17,7 +17,7 @@
 
       <tbody>
         <tr class="table-secondary" *ngFor="let book of books">
-          <th scope="row">{{book.name}}</th>
+          <th scope="row"><a href="/book/{{book.id}}">{{book.name}}</a></th>
           <td>{{book.author}}</td>
           <td>{{book.isbnCode}}</td>
           <td>{{book.publishDate | date}}</td>

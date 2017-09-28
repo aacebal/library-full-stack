@@ -11,12 +11,14 @@ import { TransactionsService } from './services/transactions.service';
 import { AppComponent } from './app.component';
 import { BooksComponent } from './books/books.component';
 import { AddBookComponent } from './add-book/add-book.component';
+import { BookDetailsComponent } from './book-details/book-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BooksComponent,
-    AddBookComponent
+    AddBookComponent,
+    BookDetailsComponent
   ],
   imports: [
     BrowserModule,
