@@ -25,8 +25,8 @@ public class TransactionServiceImpl implements TransactionService {
         transactionDao.save(transaction);
     }
 
-    @Override
-    public void delete(Transaction transaction) {
-        transactionDao.delete(transaction);
-    }
+//    @Override
+//    public void delete(Transaction transaction) {
+//        transactionDao.delete(transaction);
+//    }
 }

@@ -37,6 +37,7 @@ public class TransactionDaoImpl implements TransactionDao{
         return transaction;
     }
 
+
     @Override
     public void save(Transaction transaction) {
         Session session = sessionFactory.openSession();
@@ -46,12 +47,12 @@ public class TransactionDaoImpl implements TransactionDao{
         session.close();
     }
 
-    @Override
-    public void delete(Transaction transaction) {
-        Session session = sessionFactory.openSession();
-        session.beginTransaction();
-        session.delete(transaction);
-        session.getTransaction().commit();
-        session.close();
-    }
+//    @Override
+//    public void delete(Transaction transaction) {
+//        Session session = sessionFactory.openSession();
+//        session.beginTransaction();
+//        session.delete(transaction);
+//        session.getTransaction().commit();
+//        session.close();
+//    }
 }

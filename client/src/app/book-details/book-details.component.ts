@@ -3,6 +3,7 @@ import { BooksService } from '../services/books.service';
 import { TransactionsService } from '../services/transactions.service';
 import { Router, NavigationExtras } from "@angular/router";
 import { Book } from "../models/book.model";
+import { Transaction } from "../models/transaction.model";
 import { ActivatedRoute } from "@angular/router";
 
 @Component({
@@ -13,16 +14,25 @@ import { ActivatedRoute } from "@angular/router";
 export class BookDetailsComponent implements OnInit {
 
   book: Book;
+  transactions: Transaction[];
 
-  constructor(private booksService: BooksService, private route: ActivatedRoute, private router: Router) { }
+
+  constructor(private transactionsService: TransactionsService,
+    private booksService: BooksService, private route: ActivatedRoute, private router: Router) { }
 
   ngOnInit() {
     this.route.params
       .subscribe((params) => {
         this.booksService.getBook(params.id)
         .then((book) => {
+          console.log(book);
           this.book = book;
         })
+      })
+    this.transactionsService.getTransactions(this.book.id)
+      .then((transactions) => {
+        console.log(transactions);
+        this.transactions = transactions;
       })
   }
 

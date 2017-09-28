@@ -1,3 +1,21 @@
-<p>
-  book-details works!
-</p>
+<h3>{{book.name}}</h3>
+
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+  <h2>Author Name: </h2> <h5> {{book.author}}</h5>
+  <br>
+  <h2>ISBN: </h2> <h5> {{book.isbnCode}}</h5>
+  <br>
+  <h2>Publish Date: </h2> <h5> {{book.publishDate | date}}</h5>
+  <br>
+  <h2>Category: </h2> <h5> {{book.category}}</h5>
+  <br>
+  <h2>Amount of books: </h2> <h5> {{book.amount}}</h5>
+  <br>
+  <h2>Books Issued: </h2> <h5> {{book.booksIssued}}</h5>
+</div>
+
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+  <ul *ngFor="let transaction of book.transactions">
+    <li>{{transactions.id}}</li>
+  </ul>
+</div>
