@@ -12,24 +12,28 @@ export class BooksService {
 
   findAll() {
       return this.http.get(`${this.BASE_URL}/books`,
-      { withCredentials: true }
-    )
+      { withCredentials: true })
     .toPromise()
     .then(res => res.json())
   }
 
   addBook(book) {
       return this.http.post(`${this.BASE_URL}/books/add`, book,
-      { withCredentials: true }
-    )
+      { withCredentials: true })
     .toPromise()
     .then(res => res.json())
   }
 
   findById(id) {
       return this.http.get(`${this.BASE_URL}/book/${id}`,
-      { withCredentials: true }
-    )
+      { withCredentials: true })
+    .toPromise()
+    .then(res => res.json())
+  }
+
+  delete(id) {
+      return this.http.post(`${this.BASE_URL}/book/delete/${id}`,
+      { withCredentials: true })
     .toPromise()
     .then(res => res.json())
   }

@@ -43,4 +43,11 @@ export class BooksComponent implements OnInit {
     })
   }
 
+  delete(id) {
+    this.booksService.delete(id)
+    .then((allBooks) => {
+      this.books = allBooks;
+    })
+  }
+
 }
