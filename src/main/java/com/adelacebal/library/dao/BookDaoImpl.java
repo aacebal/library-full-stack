@@ -1,6 +1,7 @@
 package com.adelacebal.library.dao;
 
 import com.adelacebal.library.model.Book;
+import org.hibernate.Hibernate;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,7 +31,7 @@ public class BookDaoImpl implements BookDao{
     public Book findById(Long id) {
         Session session = sessionFactory.openSession();
         Book book = session.get(Book.class, id);
-//        Hibernate.initialize(book.getTransactions());
+        Hibernate.initialize(book.getTransactions());
         session.close();
         return book;
     }
