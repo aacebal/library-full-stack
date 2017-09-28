@@ -26,4 +26,12 @@ export class BooksService {
     .then(res => res.json())
   }
 
+  findById(id) {
+      return this.http.get(`${this.BASE_URL}/book/${id}`,
+      { withCredentials: true }
+    )
+    .toPromise()
+    .then(res => res.json())
+  }
+
 }

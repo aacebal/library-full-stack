@@ -11,6 +11,7 @@ import { DatePipe } from '@angular/common';
   styleUrls: ['./books.component.css']
 })
 export class BooksComponent implements OnInit {
+  book: Book;
   books: Book[];
 
   constructor(private booksService: BooksService, private router: Router) { }
@@ -21,6 +22,15 @@ export class BooksComponent implements OnInit {
       console.log(allBooks);
       this.books = allBooks;
     });
+  }
+
+  edit(id) {
+    this.booksService.findById(id)
+    .then((book) => {
+      console.log(book);
+      this.router.navigate(['/books/add'], book);
+      this.book = book;
+    })
   }
 
 }

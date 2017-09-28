@@ -5,6 +5,7 @@ import { Router } from "@angular/router";
 import { Book } from "../models/book.model";
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import {ActivatedRoute} from "@angular/router";
 
 @Component({
   selector: 'app-add-book',
@@ -26,7 +27,7 @@ export class AddBookComponent implements OnInit {
     amount: ''
   };
 
-  constructor(private booksService: BooksService, private router: Router) { }
+  constructor(private booksService: BooksService, private router: Router, private route: ActivatedRoute) { }
 
   ngOnInit() {}
 
@@ -38,5 +39,7 @@ export class AddBookComponent implements OnInit {
         this.router.navigate(['/']);
       })
   }
+
+
 
 }

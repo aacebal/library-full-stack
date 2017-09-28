@@ -41,7 +41,7 @@ public class BookController {
         return books;
     }
 
-    @RequestMapping(value = "/book/details/{bookId}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    @RequestMapping(value = "/book/{bookId}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public Book bookDetails(@PathVariable Long bookId) {
         Book book = bookService.findById(bookId);
 

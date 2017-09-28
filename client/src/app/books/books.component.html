@@ -24,8 +24,8 @@
           <td>{{book.category}}</td>
           <td>{{book.amount}}</td>
           <td>{{book.booksIssued}}</td>
-          <button class="btn-sm btn-danger" type="submit" name="button">Delete</button>
-          <button class="btn-sm btn-warning" type="submit" name="button">Edit</button>
+          <button class="btn-sm btn-danger" type="submit" name="button" (ngSubmit)="delete(bookd.id)">Delete</button>
+          <button class="btn-sm btn-warning" type="submit" (click)="edit(book.id)" name="button">Edit</button>
         </tr>
       </tbody>
 
