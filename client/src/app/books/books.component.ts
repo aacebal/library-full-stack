@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { BooksService } from '../services/books.service';
 import { TransactionsService } from '../services/transactions.service';
-import { Router } from "@angular/router";
+import { Router, NavigationExtras } from "@angular/router";
 import { Book } from "../models/book.model";
 import { DatePipe } from '@angular/common';
 
@@ -27,8 +27,18 @@ export class BooksComponent implements OnInit {
   edit(id) {
     this.booksService.findById(id)
     .then((book) => {
-      console.log(book);
-      this.router.navigate(['/books/add'], book);
+      let navigationExtras: NavigationExtras = {
+        queryParams: {
+          "bookId": book.id,
+          "bookName": book.name,
+          "bookAuthor": book.author,
+          "bookIsbn": book.isbnCode,
+          "bookPublishDate": book.publishDate,
+          "bookCategory": book.category,
+          "bookAmount": book.amount,
+        }
+      };
+      this.router.navigate(['/books/add'], navigationExtras);
       this.book = book;
     })
   }

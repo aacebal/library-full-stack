@@ -5,7 +5,7 @@ import { Router } from "@angular/router";
 import { Book } from "../models/book.model";
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import {ActivatedRoute} from "@angular/router";
+import { ActivatedRoute } from "@angular/router";
 
 @Component({
   selector: 'app-add-book',
@@ -19,6 +19,7 @@ export class AddBookComponent implements OnInit {
   books: Book[];
 
   formInfo: Object = {
+    id: '',
     name: '',
     author: '',
     isbnCode: '',
@@ -27,12 +28,25 @@ export class AddBookComponent implements OnInit {
     amount: ''
   };
 
-  constructor(private booksService: BooksService, private router: Router, private route: ActivatedRoute) { }
+  constructor(private booksService: BooksService, private router: Router, private route: ActivatedRoute) {
+    if (this.route.queryParams != null) {
+      this.route.queryParams.subscribe(params => {
+        this.formInfo = {
+          id: params["bookId"],
+          name: params["bookName"],
+          author: params["bookAuthor"],
+          isbnCode: params["bookIsbn"],
+          publishDate: params["bookPublishDate"],
+          category: params["bookCategory"],
+          amount: params["bookAmount"]
+        }
+      })
+    }
+  }
 
   ngOnInit() {}
 
   addBook() {
-    console.log(this.formInfo);
     this.booksService.addBook(this.formInfo)
       .then((allBooks) => {
         this.books = allBooks;
