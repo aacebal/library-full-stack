@@ -13,6 +13,7 @@
   <br>
   <input placeholder="Number of Books" type="number" [(ngModel)]="formInfo.amount" name="amount"/>
   <br>
+  <input class="hidden" type="number" name="booksIssued" [(ngModel)]="formInfo.booksIssued">
   <button *ngIf="!formInfo.id" class="btn btn-lg"(click)="addBook()"> Add Book </button>
   <button *ngIf="formInfo.id" class="btn btn-lg"(click)="addBook()"> Edit Book </button>
 </form>

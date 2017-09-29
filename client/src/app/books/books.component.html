@@ -22,7 +22,7 @@
           <td>{{book.isbnCode}}</td>
           <td>{{book.publishDate | date}}</td>
           <td>{{book.category}}</td>
-          <td>{{book.amount}}</td>
+          <td>{{book.amount - book.booksIssued}}</td>
           <td>{{book.booksIssued}}</td>
           <button class="btn-sm btn-danger" type="submit" (click)="delete(book.id)" name="button">Delete</button>
           <button class="btn-sm btn-warning" type="submit" (click)="edit(book.id)" name="button">Edit</button>

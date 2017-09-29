@@ -25,6 +25,7 @@ export class AddBookComponent implements OnInit {
     isbnCode: '',
     publishDate: '',
     editedPublishedDate: '',
+    issuedBooks: '',
     category: '',
     amount: ''
   };
@@ -40,7 +41,8 @@ export class AddBookComponent implements OnInit {
           isbnCode: params["bookIsbn"],
           publishDate: params["bookPublishDate"],
           category: params["bookCategory"],
-          amount: params["bookAmount"]
+          amount: params["bookAmount"],
+          booksIssued: params["booksIssued"]
         }
       })
     }

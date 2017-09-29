@@ -33,15 +33,13 @@ public class BookController {
         cal.add(Calendar.DATE, 1);
 
         if (book != null) {
-            book.setName(book.getName());
-            book.setAuthor(book.getAuthor());
-            book.setIsbnCode(book.getIsbnCode());
             book.setPublishDate(cal.getTime());
-            book.setCategory(book.getCategory());
-            book.setAmount(book.getAmount());
         }
 
-        bookService.save(book);
+        if ((book.getAmount() - book.getBooksIssued()) - book.getBooksIssued() >= 0) {
+            bookService.save(book);
+        }
+
         List<Book> books = bookService.findAll();
 
         return books;

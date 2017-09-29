@@ -16,4 +16,18 @@ export class TransactionsService {
       .toPromise()
       .then(res => res.json())
   }
+
+  issueBook(id) {
+    return this.http.post(`${this.BASE_URL}/transactions/issue/${id}`,
+    { withCredentials: true })
+      .toPromise()
+      .then(res => res.json())
+  }
+
+  return(id) {
+    return this.http.post(`${this.BASE_URL}/transactions/return/${id}`,
+    { withCredentials: true })
+      .toPromise()
+      .then(res => res.json())
+  }
 }

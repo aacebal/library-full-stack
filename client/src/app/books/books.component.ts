@@ -37,6 +37,7 @@ export class BooksComponent implements OnInit {
           "bookPublishDate": moment(book.publishDate).format('YYYY-MM-DD'),
           "bookCategory": book.category,
           "bookAmount": book.amount,
+          "booksIssued": book.booksIssued
         }
       };
       this.router.navigate(['/books/add'], navigationExtras);

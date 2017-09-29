@@ -8,5 +8,6 @@ export class Book {
   publishDate: Date;
   category: string;
   amount: number;
+  issuedBooks: number;
   transactions: Transaction[];
 }

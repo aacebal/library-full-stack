@@ -2,7 +2,7 @@ package com.adelacebal.library.model;
 
 import javax.persistence.*;
 import javax.xml.bind.annotation.XmlRootElement;
-import java.time.LocalDateTime;
+import java.util.Date;
 
 @Entity
 @XmlRootElement
@@ -10,12 +10,11 @@ public class Transaction {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private LocalDateTime issueDate;
-    private LocalDateTime returnDate;
-    private enum type {
-        Issue, Return
-    }
-    @ManyToOne
+    private Date issueDate;
+    private Date returnDate;
+    private boolean type;
+    @ManyToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "book_id")
     private Book book;
 
     public Transaction() {
@@ -29,20 +28,28 @@ public class Transaction {
         this.id = id;
     }
 
-    public LocalDateTime getIssueDate() {
+    public Date getIssueDate() {
         return issueDate;
     }
 
-    public void setIssueDate(LocalDateTime issueDate) {
+    public void setIssueDate(Date issueDate) {
         this.issueDate = issueDate;
     }
 
-    public LocalDateTime getReturnDate() {
+    public Date getReturnDate() {
         return returnDate;
     }
 
-    public void setReturnDate(LocalDateTime returnDate) {
+    public void setReturnDate(Date returnDate) {
         this.returnDate = returnDate;
+    }
+
+    public boolean isType() {
+        return type;
+    }
+
+    public void setType(boolean type) {
+        this.type = type;
     }
 
     public Book getBook() {

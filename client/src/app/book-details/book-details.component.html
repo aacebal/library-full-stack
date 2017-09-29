@@ -1,6 +1,8 @@
-<h3>{{book.name}}</h3>
 
-<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+
+<div *ngIf="book" class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+  <h2> {{book.name}}</h2>
+  <br>
   <h2>Author Name: </h2> <h5> {{book.author}}</h5>
   <br>
   <h2>ISBN: </h2> <h5> {{book.isbnCode}}</h5>
@@ -9,13 +11,23 @@
   <br>
   <h2>Category: </h2> <h5> {{book.category}}</h5>
   <br>
-  <h2>Amount of books: </h2> <h5> {{book.amount}}</h5>
+  <h2>Amount of books: </h2> <h5> {{book.amount - book.booksIssued}}</h5>
   <br>
   <h2>Books Issued: </h2> <h5> {{book.booksIssued}}</h5>
+  <br>
+    <button class="btn btn-lg btn-success" (click)="issueBook(book.id)"
+    type="button" name="button">Issue Book</button>
 </div>
 
-<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+  <h2>Transactions</h2>
+  <br>
   <ul *ngFor="let transaction of transactions">
-    <li>{{transaction.id}}</li>
+    <li>Transaction ID: {{transaction.id}}</li>
+    <li>Issue Date: {{transaction.issueDate | date}}</li>
+      <button *ngIf="!transaction.returnDate" class="btn-lg btn-warning"
+      (click)="return(transaction.id)" type="button" name="button">Return</button>
+    <li *ngIf="transaction.returnDate">Return Date: {{transaction.returnDate | date}}</li>
   </ul>
+
 </div>

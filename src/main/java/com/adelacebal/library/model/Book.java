@@ -24,7 +24,7 @@ public class Book {
     private int booksIssued;
 
     @JsonIgnore
-    @OneToMany(mappedBy = "book")
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "book")
     private List<Transaction> transactions = new ArrayList<>();
 
     public Book() {

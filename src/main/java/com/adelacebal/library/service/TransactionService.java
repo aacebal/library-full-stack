@@ -8,5 +8,6 @@ public interface TransactionService {
     List<Transaction> findAll();
     Transaction findById(Long id);
     void save(Transaction transaction);
-//    void delete(Transaction transaction);
+    Long issueBook(Long id);
+    Long returnBook(Long id);
 }

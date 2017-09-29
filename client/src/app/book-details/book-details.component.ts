@@ -36,4 +36,21 @@ export class BookDetailsComponent implements OnInit {
       })
   }
 
+  issueBook(id) {
+    console.log(id);
+    this.transactionsService.issueBook(id)
+      .then((allTransactions) => {
+        this.transactions = allTransactions;
+        this.ngOnInit();
+      })
+  }
+
+  return(id) {
+    this.transactionsService.return(id)
+      .then((allTransactions) => {
+        this.transactions = allTransactions;
+        this.ngOnInit();
+      })
+  }
+
 }
