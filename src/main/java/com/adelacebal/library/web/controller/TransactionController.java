@@ -1,6 +1,5 @@
 package com.adelacebal.library.web.controller;
 
-import com.adelacebal.library.model.Book;
 import com.adelacebal.library.model.Transaction;
 import com.adelacebal.library.service.BookService;
 import com.adelacebal.library.service.TransactionService;
@@ -10,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
+import java.util.ArrayList;
 
 @RestController
 @RequestMapping(ControllerConstants.LIBRARY_V1)
@@ -23,13 +22,20 @@ public class TransactionController {
     BookService bookService;
 
     @RequestMapping(value = "/transactions/{bookId}", method = RequestMethod.GET, produces = "application/json")
-    public List<Transaction> getTransactions(Long bookId) {
-        Book book = bookService.findById(bookId);
+    public ArrayList<Transaction> getTransactions(Long bookId) {
 
-        List<Transaction> transactions = book.getTransactions();
-        System.out.println("ALL THE TRANSACTIONS" + transactions);
+        ArrayList<Transaction> bookTransactions = new ArrayList<>();
 
-        return transactions;
+        transactionService.findAll().forEach((transaction -> {
+            System.out.println("ONE TRANSACTION ------> " + transaction);
+            System.out.println("IDS ---------> " + transaction.getBook().getId());
+            if (transaction.getBook().getId().equals(bookId)) {
+
+                bookTransactions.add(transaction);
+            }
+        }));
+
+        return bookTransactions;
     }
 
 }

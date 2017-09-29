@@ -27,12 +27,12 @@ export class BookDetailsComponent implements OnInit {
         .then((book) => {
           console.log(book);
           this.book = book;
+          this.transactionsService.getTransactions(this.book.id)
+            .then((transactions) => {
+              console.log(transactions);
+              this.transactions = transactions;
+            })
         })
-      })
-    this.transactionsService.getTransactions(this.book.id)
-      .then((transactions) => {
-        console.log(transactions);
-        this.transactions = transactions;
       })
   }
 
