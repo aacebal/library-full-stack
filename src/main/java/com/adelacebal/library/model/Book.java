@@ -3,6 +3,7 @@ package com.adelacebal.library.model;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.util.ArrayList;
 import java.util.Date;
@@ -14,12 +15,16 @@ public class Book {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @NotNull
     private String name;
+    @NotNull
     private String author;
+    @NotNull
     private String isbnCode;
     private int amount;
     private Date publishDate;
 
+    @NotNull
     private String category;
     private int booksIssued;
 
